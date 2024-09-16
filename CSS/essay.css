@@ -3,6 +3,7 @@ body{
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     align-items: center;
     font-family: Arial, sans-serif;
@@ -17,8 +18,8 @@ body{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     max-width: 450px;
-    padding: 70px 20px;
-    margin: 20px auto;
+    padding: 50px 20px 25px 20px;
+    margin: 20px 20px;
     position: relative;
     box-sizing: border-box;
 }
@@ -51,40 +52,3 @@ h2{
     padding: 15px;
 }
 
-.button-container {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    max-width: 450px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-
-.prev-btn, .next-btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    color: #ffffff;
-    font-size: 16px;
-    text-decoration: none;
-    cursor: pointer;
-    /*transition: background-color 0.3s ease;*/
-}
-
-.prev-btn {
-    background-color: #e6a1b2; 
-}
-
-.prev-btn:hover {
-    background-color: #d58f9a;
-}
-
-.next-btn {
-    background-color: #a1d9e6; 
-}
-
-.next-btn:hover {
-    background-color: #8fbdcc;
-}

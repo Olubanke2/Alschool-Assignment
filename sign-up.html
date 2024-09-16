@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="CSS/sign-up.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="container-left">
+        <img src="ASSETS/IMAGES/altschool_africa-900x0.png" alt="logo" width="100px">
+
+    <h2>For Individuals</h2>
+
+    <p>Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+    </div>
+
+    <div class="container-right">
+
+        <form class="form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" id="fname">
+                </div>
+                    
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" id="lname">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="Gender">Gender</label>
+                <select id="Gender">
+                    <option value="" disabled selected hidden>Select here</option>
+                    <option value="M"> Male</option>
+                    <option value="F"> Female</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <label>Date of Birth</label>
+                    <input type="date" id="bday">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Weight (KG)</label>
+                    <input type="number" id="weight" placeholder="Enter Weight">
+                </div>
+                <div class="form-group">
+                    <label>Height (CM)</label>
+                    <input type="number" id="height" placeholder="Enter height here">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="level">Activity Level</label>
+            <select id="activity">
+                <option value="" disabled selected hidden>Select here</option>
+                <option value=""> Nil</option>
+                <option value=""> Nil</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="password">
+            </div>
+            
+            <input type="submit" value="Register">
+            <p>
+                By clicking Register, you agree to our 
+                <a href="terms_of_use.html" target="_blank">Terms of Use</a> 
+                and our 
+                <a href="privacy_policy.html" target="_blank">Privacy Policy</a>.
+            </p>
+        </form>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
